@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>$\sqrt2$是一个无理数</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$','$'],['\\(','\\)']]}});</script>
+<script type="text/javascript" src="/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+
+<body>
+<p><h1>$\sqrt2$是一个无理数</h1></p>
+<p>古希腊数学家曾认为一切数皆整数之比，直到他们发现$\sqrt2$这个反例。这个事实用今天的话说$\sqrt2$是一个十数无理数，用欧几里得的话说 1 和$\sqrt2$是不可公约的。实际上欧几里得会说正方形的边长和对角线是不可公约的。</p>
+
+<p>可公约以及不可公约都是针对两条线段来说的。设$a,b$是两条线段，$a$不长于$b$，我们用$a$来量$b$，一段一段地量，如果剩下一小段的话，再用这一小段量$a$，这个过程可以一直进行下去，如果有那么一刻，刚好量完不剩下，就说$a,b$是可公约的，否则就说$a,b$是不可公约的。</p>
+<p>为什么$1$和$\sqrt2$不可公约呢？</p>
+
+<p>如右图，取$BE=BC$，作$EF\perp BD$交$CD$于$F$，则$DE=EF=FC$(可能不是很显然)。$BC$量$BD$之剩余为$ED$，以$ED$量$BC$同样是以正方形的边长量对角线，无穷无尽。所以正方形的边长与对角线不可公约。</p>
+<p><h2>1. $\mathbf{\sqrt2}$是无理数之整除</h2></p>
+<p>反设$\sqrt2=q/p$（既约），则$q^2=2p^2$, $\Rightarrow 2|q \Rightarrow 4|2p^2 \Rightarrow 2|p$，与$q/p$既约矛盾。</p>
+
+<p><h2>2. 3 进制表示</h2></p>
+<p>设$x=q^2=2p^2$，以 3 进制表示$x$，由于平方数只以 0 或 1 结尾，而平方数的 2 倍只以 0 或 2 结尾，所以$x$以 0 结尾。</p>
+
+<p><h2>3. 算术基本定理</h2></p>
+<p>把$x$质因数分解，$x=q^2$表明有偶数个 2，$x=2p^2$表明有奇数个 2，矛盾。</p>
+
+<p><h2>4. 平方为整数</h2></p>
+<p>$2=q^2/p^2$为一整数，所以$p^2|q^2$与$p,q$既约矛盾。</p>
+
+<p><h2>5. 取出小数部分</h2></p>
+<p>$\sqrt2=q/p$ $\Rightarrow 2q/p=p/q$ $\Rightarrow \{2q/p\}=\{p/q\}$ $\Rightarrow a/p=b/q$ $\Rightarrow \sqrt2=b/a$无穷递归，引发矛盾。</p>
+
+<p><h2>6. 又一个无穷递归</h2></p>
+<p>$q^2=2p^2 \Rightarrow (2p-q)^2=2(q-p)^2$.</p>
+
+<p><h2>7. 图形上的无穷递归</h2></p>
+<p>把边长为$p$的正方形按如图所示的方式放在边长为$q$的正方形内，重合部分的面积等于空白部分的面积，若$q^2=2p^2$，必有$b^2=2a^2$，无穷递归。</p>
+
+<p><h2>8. 运用极限</h2></p>
+<p>$\sqrt2=q/p \Rightarrow (\sqrt2)^np$总是整数，但$0 < (\sqrt2-1)^np=\sum_{k=0}^n\big[{\rm C}_n^k(\sqrt2)^k(-1)^{n-k}p\big]\in{\bf Z}$，与$\lim_{n\to\infty}(\sqrt2-1)^np=0$矛盾。</p>
+
+<p><h2>9. 连分数</h2></p>
+<p>由于$1/(\sqrt2-1)=\sqrt2+1$，知化为连分数是无限长的，所以$\sqrt2$是无理数。</p>
+
+<p><h2>10. 整系数多项式</h2></p>
+<p>$\sqrt2$为方程$x^2-2=0$的根，由整系数多项式有理根的性质，$\sqrt2$为一无理数。</p>
+
+<p><h2>11. 艾森斯坦判别法</h2></p>
+<p>$x^2-2=0$在有理数域上不可约，所以$\sqrt2$是无理数。<p>
+</body>
+</html>

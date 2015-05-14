@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$','$'],['\\(','\\)']]}});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+key linux firefox gfsoso 默认搜索引擎
+
+	$ find / -name 'searchplugins'	
+这个目录下的xml文件可以会被添加进firefox的搜索引擎里面, 比如我的这个目录里已有 baidu.xml
+	$ cd ~/.mozilla/firefox/aop0wfct.default/searchplugins
+	$ cp baidu.xml gfsoso.xml
+编辑gfsoso.xml 把里面的 baidu.com 全部替换成 gfsoso.net
+重新启动 firefox 即可.
+
+</body>
+</html>
