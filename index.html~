@@ -11,8 +11,8 @@
 <meta name="keywords" content="锡恩,记忆,博客,个人,数学,教师,Python,TeX,Linux">
 <meta name="description" content="王崇宁个人博客，主要分享我的作品,笔记和难舍的记忆">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-<link href="css/base.css" rel="stylesheet">
-<script src="js/modernizr.js"></script>
+<link href="CSS/base.css" rel="stylesheet">
+<script src="JS/modernizr.js"></script>
 </head>
 <body>
   <header>
